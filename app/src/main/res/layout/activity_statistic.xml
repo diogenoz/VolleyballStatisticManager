@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:gravity="center">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Home"
+                android:id="@+id/HNameTextView" android:gravity="left" android:layout_gravity="left"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Away"
+                android:id="@+id/ANameTextView" android:gravity="right" android:layout_gravity="right"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="52dp"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/HAceTextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="  Aces  "
+                android:id="@+id/textView6" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="0"
+                android:id="@+id/AAceTextView" android:layout_gravity="right" android:gravity="right"
+                android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HBlockTextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Blocks"
+                  android:id="@+id/textView10" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/ABlockTextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAttTextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attacks"
+                  android:id="@+id/textView13" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAttTextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAtt1TextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attacks Z1"
+                  android:id="@+id/textView16" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAtt1TextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAtt2TextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="  Attacks Z2  "
+                  android:id="@+id/textView19" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAtt2TextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAttTextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attacks Z3"
+                  android:id="@+id/textView22" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAtt3TextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAtt4TextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attacks Z4"
+                  android:id="@+id/textView25" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAtt4TextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAtt5TextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attacks Z5"
+                  android:id="@+id/textView28" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAttTextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HAtt6TextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attacks Z6"
+                  android:id="@+id/textView31" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AAtt6TextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HErrTextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Serve Errors"
+                  android:id="@+id/textView34" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AErrTextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                  android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+        <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/HErrAtttextView" android:gravity="left" android:layout_weight="2"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="Attack Errors"
+                  android:id="@+id/textView37" android:layout_gravity="center_horizontal" android:gravity="center"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                  android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                  android:id="@+id/AErrAttTextView" android:layout_gravity="right" android:gravity="right"
+                  android:layout_weight="2"/>
+        <LinearLayout android:orientation="horizontal" android:layout_width="match_parent"
+                      android:layout_height="wrap_content" android:layout_gravity="center_horizontal">
+            <TextView android:layout_width="wrap_content" android:layout_height="52dp"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                      android:id="@+id/HErrSrvTextView" android:gravity="left" android:layout_weight="2"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="Serve Errors"
+                      android:id="@+id/textView40" android:layout_gravity="center_horizontal" android:gravity="center"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:textAppearance="?android:attr/textAppearanceLarge" android:text="0"
+                      android:id="@+id/AErrSrvTextView" android:layout_gravity="right" android:gravity="right"
+                      android:layout_weight="2"/>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/scrollView" android:layout_gravity="right"/>
+</LinearLayout>
